@@ -1,12 +1,16 @@
 ---
-title: This is my second post.
+layout: layouts/post.njk
+title: This is my second post. [editing from netlify cms]
 description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
+  [editing from netlify cms]
+date: 2020-07-04
+image: /img/remote/picture-1.png
 tags:
   - number-2
-layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+### \[editing from netlify cms]
+
+**Leverage** agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
 ## Section Header
 
