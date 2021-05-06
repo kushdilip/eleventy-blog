@@ -1,5 +1,5 @@
 {
-  "title": "Title of the website. Update me.",
+  "title": "Dilip Kushwaha",
   "url": "https://update-me.com",
   "domain": "update-me.com",
   "description": "Description of the website. Update me.",
@@ -17,10 +17,10 @@
     "url": "https://update-me.com/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
-    "twitterHandle": "update_me"
+    "name": "Copyright © 2021 - Dilip Kushwaha",
+    "twitterHandle": "kushdilip"
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "Published with Netlify. Build with eleventy"
   }
 }
