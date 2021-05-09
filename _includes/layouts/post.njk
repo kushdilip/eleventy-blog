@@ -16,7 +16,9 @@ templateClass: tmpl-post
 {% set shareUrl = metadata.url + page.url %}
 
 {% block article %}
-{{ content | safe }}
+<div class="post-content">
+  {{ content | safe }}
+</div>
 
 <h1>🙏🙏🙏</h1>
 <p>

@@ -1,12 +1,13 @@
 ---
 layout: layouts/post.njk
-title: This is my second post. [editing from netlify cms]
+title: This is my second post.
 description: This is a post on My Blog about leveraging agile frameworks.
   [editing from netlify cms]
 date: 2020-07-04
 image: /img/remote/picture-1.png
 tags:
   - number-2
+eleventyExcludeFromCollections: true
 ---
 ### \[editing from netlify cms]
 

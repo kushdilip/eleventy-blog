@@ -2,6 +2,7 @@
 :root {
   --primary: #f9c412;
   --primary-dark: #e7bf60;
+  --link-highlight: #f26a3d;
 }
 
 .test-dead-code-elimination-sentinel {
@@ -1007,8 +1008,9 @@ video {
 }
 body {
   font-family: var(--font-family);
-  background: #181818;
-  color: #eee;
+  /* background: #181818;
+  color: #eee; */
+  color: #181818;
 }
 section {
   margin-left: auto;
@@ -1095,7 +1097,7 @@ main {
   border-top: 0.5px solid #ccc;
 }
 footer {
-  background: rgba(0, 0, 0, 0.8);
+  /* background: rgba(0, 0, 0, 0.8); */
   color: #fff;
   padding: 3em;
   text-align: center;
@@ -1284,9 +1286,70 @@ mark {
 }
 
 a {
-  color: var(--primary);
+  /* color: var(--primary); */
+  color: #212226;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.2s ease-out;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
+}
+
+/* Custom CSS by @kushdilip */
+.page-title {
+  line-height: 1.5em;
+  font-size: 1.5rem;
+}
+
+.post-title {
+  margin: 0 0 0.25em;
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: 700;
+  text-indent: -1px;
+  color: #000;
+}
+
+.post-title a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: inherit;
+  border-bottom: 0;
+}
+
+.posts-list__item {
+  list-style: none;
+  position: relative;
+  padding: 1em 0;
+}
+
+.posts-list__item::after {
+  position: absolute;
+  width: 32em;
+  height: 1px;
+  left: 50%;
+  bottom: 0;
+  margin-left: -16em;
+  content: "";
+  background: #e5e4e1;
+}
+
+.posts-list__item > time {
+  display: block;
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 1.334em;
+  color: #8a9199;
+}
+
+.post-content a {
+  border-bottom: 1px solid var(--link-highlight);
+}
+
+.post-content a:hover,
+.post-content a:focus {
+  color: var(--link-highlight);
+  text-decoration: none;
 }
