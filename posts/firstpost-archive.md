@@ -1,5 +1,5 @@
 ---
-title: Starting Again.
+title: Starting again
 description: Starting again with blogging
 date: 2021-05-09
 tags:

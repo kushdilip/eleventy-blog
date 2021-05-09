@@ -44,7 +44,7 @@ describe("check build output for a generic post", () => {
     });
 
     it("should have metadata", () => {
-      assert.equal(select("title"), "Starting Again.");
+      assert.equal(select("title"), "Starting again");
       expect(select("meta[property='og:image']", "content")).to.match(
         /\/img\/remote\/\w+.jpg/
       );
@@ -114,7 +114,7 @@ describe("check build output for a generic post", () => {
     });
 
     it("should have a header", () => {
-      expect(select("header > h1")).to.equal("Starting Again.");
+      expect(select("header > h1")).to.equal("Starting again");
       expect(select("header aside")).to.match(/\d+ min read./);
       expect(select("header dialog", "id")).to.equal("message");
     });

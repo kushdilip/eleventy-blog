@@ -1,11 +1,11 @@
 ---
-title: Starting Again.
+title: Starting again
 description: Starting again with blogging
 date: 2021-05-09
 tags:
   - random
 layout: layouts/post.njk
-# image: /img/remote/new-begining.jpeg
+image: /img/remote/new-begining.jpeg
 ---
 
 There it is again. Another attemp at blogging. In past, I attempted multiple times to revive writing blogs but after first few days the enthusiam will die out. I tried to focus mainly on technical blog where I could post about web development, how to tutorials etc but the it's difficult to balance out between work, life & blogging. I have attempted at starting non-technical blogs where I could post about general topics but there are different issues altogether.
