@@ -1,19 +1,21 @@
 Blog at https://kushdilip.netlify.app
 
+### TODO Items for this blog
+- [ ] Group all the posts by year in archive page
+  - Follow [Issue #1284 · 11ty/eleventy](https://github.com/11ty/eleventy/issues/1284)
+- [ ] Add links in header - Archive, Privacy, Contact
+- [ ] Create a custom favicon for the blog
+- [ ] Setup google analytics
+- [ ] Explore/Buy custom domain
+- [ ] Add footer links - Github, Twitter, LinkedIn, RSS
+- [ ] Instead of showing description field in post list, use first paragraph from content
+- [ ] Create search button which takes visiter to duckduckgo with `{query} site:https://kushdilip.netlify.app/posts/`
+
 ---
-Inherited
-# eleventy-high-performance-blog
+## Started Template
+> Content below is mostly Inherited
 
-A starter repository for building a blog with the [Eleventy static site generator](https://www.11ty.dev/) implementing a wide range of performance best practices.
-
-![Screenshot showing that the site achieves 100 points on Lighthouse by default](https://cdn.glitch.com/db98564e-04da-47bf-a3d6-70803c3d0fe7%2FScreen%20Shot%202020-09-04%20at%2012.07.27.png?v=1599214260591)
-
-Based on the awesome [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog).
-
-## Demo
-
-- [Netlify Demo](https://eleventy-high-performance-blog-sample.industrialempathy.com/)
-- [Original site this template was based on](https://www.industrialempathy.com/)
+Starter template can be found at [google/eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)
 
 ## Getting Started
 
@@ -154,7 +156,3 @@ Generates a strong CSP for the base template.
 - Downloaded remote images, and generated sizes are cached in the local filesystem…
 - …and SHOULD be committed to git.
 - `.persistimages.sh` helps with this.
-
-## Disclaimer
-
-This is not an officially supported Google product, but rather [Malte's](https://twitter.com/cramforce) private best-effort open-source project.
