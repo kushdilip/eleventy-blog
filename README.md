@@ -11,6 +11,14 @@ Blog at https://kushdilip.netlify.app
 - [ ] Instead of showing description field in post list, use first paragraph from content
 - [ ] Create search button which takes visiter to duckduckgo with `{query} site:https://kushdilip.netlify.app/posts/`
 
+## Blogs I take inspirations from
+- [Blogs Listed on Blot.im](https://blot.im/)
+  -  [inhab.it - lived in places](https://inhab.it/archives)
+  - [but she's a girl... | rousette.org.uk](https://www.rousette.org.uk/archives/)
+  - [Archives - The Jolly Teapot](https://thejollyteapot.com/archives)
+- [Posts | BryceWray.com](https://brycewray.com/posts/)
+
+
 ---
 ## Started Template
 > Content below is mostly Inherited
